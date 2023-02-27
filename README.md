@@ -26,4 +26,11 @@ Use the following steps to run this service:
 
  # The BloomFilter library was used to calculate probability
   - https://www.npmjs.com/package/bloomfilter
+
+  # Design Choices:
+  - I used node js to build the solution as it is the language that I am most comfortable with.
+  - Express was used for the server and routing. 
+  - Controllers were used to handle the routes and communicate with the service.
+  - The service does all of the heavy lifting. Ideally, the service would also be used to save data and make API calls. There was no need for that in this      solution.
+  - The data is saved in memory, and can be accessed using the API's above.
  
